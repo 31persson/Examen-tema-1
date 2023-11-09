@@ -5,7 +5,7 @@ int suma(int a, int b) {
 }
 
 int main() {
-    int num1 = 45;
+    int num1 = 47;
     int num2 = 21;
     int resultado = suma(num1, num2);
 
