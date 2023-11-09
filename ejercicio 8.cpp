@@ -27,10 +27,13 @@ std::vector<Estudiante> filtrarEstudiantesPorGrado(const std::vector<Estudiante>
 int main() {
     // Ejemplo: lista de estudiantes
     std::vector<Estudiante> listaEstudiantes = {
-            Estudiante("Juan", 16, "Ingenieria"),
-            Estudiante("Maria", 17, "11º grado"),
-            Estudiante("Carlos", 15, "10º grado"),
-            Estudiante("Luisa", 18, "12º grado"),
+            Estudiante("Juan", 21, "Ingenieria"),
+            Estudiante("Maria", 19, "Fisica"),
+            Estudiante("Carlos", 18, "Ingenieria"),
+            Estudiante("Luisa", 18, "ADE"),
+            Estudiante("Jaime", 20, "Ingenieria"),
+            Estudiante("Lucas", 19, "Fisica"),
+            Estudiante("Noelia", 18, "ADE"),
     };
 
     // Grado para filtrar
